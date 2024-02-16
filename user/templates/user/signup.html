@@ -29,6 +29,9 @@
                 </div>
                 <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold text-sm rounded-md py-2 px-4">Registrar</button>
             </form>
+            {% if error %}
+                <p class = "text-red-600 "> {{ error }} </p>
+            {% endif %}
         </div>
     </div>
 {% endblock %}
