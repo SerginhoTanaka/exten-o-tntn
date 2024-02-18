@@ -4,7 +4,6 @@ from django.core.validators import validate_email,ValidationError
 from django.contrib.auth.models import User 
 
 
-# Create your views here.
 def index(request):
     if request.method == 'POST':
         username = request.POST['user']
@@ -12,7 +11,8 @@ def index(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             return redirect('index_game')
-    return render(request, 'user/index.html') # ele inicia 
+        
+    return render(request, 'user/index.html')
 
 def signup(request):
     if request.method == 'POST':
