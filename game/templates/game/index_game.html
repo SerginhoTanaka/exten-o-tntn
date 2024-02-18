@@ -1,1 +1,30 @@
 {% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="h-screen flex flex-col justify-between text-white">
+        <div class="p-4">
+            <h1 class="text-2xl font-bold mb-4">Testando os hereges</h1>
+            <form method="POST" action="{% url 'index_game' user.id %}">
+                {% csrf_token %}
+                <p class="text-xl mb-2">{{ question.Pergunta }}</p>
+                <p class="text-xl mb-2">Resposta correta: {{ correct_answers }}</p>
+                <p class="text-xl mb-2">Explicação: {{ explanation }}</p>
+                <ul>
+                {% for key, option in question.Alternativas.items %}
+                    <li>
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="resposta" value="{{ key }}" class="form-radio text-indigo-600">
+                            <span class="ml-2">{{ key }}: {{ option }}</span>
+                        </label>
+                    </li>
+                {% endfor %}
+                </ul>
+                <div class="mt-4">
+                    <input type="submit" value="Enviar Respostas" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
