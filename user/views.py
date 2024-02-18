@@ -6,14 +6,13 @@ from django.contrib.auth.models import User
 
 # Create your views here.
 def index(request):
-
     if request.method == 'POST':
         username = request.POST['user']
         password = request.POST['password']
         user = authenticate(request, username=username, password=password)
         if user is not None:
-            redirect('index_game')
-    return render(request, 'user/index.html')
+            return redirect('index_game')
+    return render(request, 'user/index.html') # ele inicia 
 
 def signup(request):
     if request.method == 'POST':

@@ -4,10 +4,10 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.models import User
 import json
 import random
-
-def index_game(request, user_id):
+from django.templatetags.static import static
+def index_game(request):
     
-    with open('../static/QA.json', 'r') as qa:
+    with open(static('../QA.json'), 'r') as qa:
         data = json.load(qa)
 
     question = data[random.choice(list(data.keys()))]
@@ -29,12 +29,12 @@ def index_game(request, user_id):
                         "question": question,
                         "correct_answer": correct_answer,
                         "explanation": explanation,
-                        "score": score.score
+                        #"score": score.score
                     })
             
             
         
     return render(request, "game/index_game", { 
             "question": question,
-            "score": score.score
+            #"score": score.score
         })
