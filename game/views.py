@@ -46,6 +46,7 @@ def index_game(request,user_id):
                 "correct_answer": correct_answer,
                 "explanation": explanation,
                 "message": message,
+                "user_id":user_id,
                 #"score": score.score
             })
     
