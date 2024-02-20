@@ -1,14 +1,15 @@
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.models import User
+from user.models import Score
 import json
 import random
 from django.templatetags.static import static
 
-def index_game(request):
+def index_game(request,user_id):
     path = '../../static/QA.json'
 
-    # user = get_object_or_404(User, pk=user_id)
-    # score = Score.objects.get(user=User)
+    user = get_object_or_404(User, pk=user_id)
+    # score = Score.objects.filter(user=user) não está funcionando 
 
     if request.method == "POST":
 
@@ -54,5 +55,6 @@ def index_game(request):
     question = data[random.choice(list(data.keys()))]
     return render(request, "game/index_game.html", {
         "question": question,
+        "user_id":user_id
     })
 

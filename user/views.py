@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import authenticate
 from django.core.validators import validate_email,ValidationError
 from django.contrib.auth.models import User 
 
@@ -10,7 +10,9 @@ def index(request):
         password = request.POST['password']
         user = authenticate(request, username=username, password=password)
         if user is not None:
-            return redirect('index_game')
+            user_id = user.id
+
+            return redirect('index_game', user_id = user_id)
         
     return render(request, 'user/index.html')
 
