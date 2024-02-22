@@ -9,8 +9,9 @@ def index_game(request,user_id):
     path = '../../static/QA.json'
     
     user = get_object_or_404(User, pk=user_id)
-    # score = Score.objects.filter(user=user) não está funcionando 
-
+    score = Score.objects.filter(user=user_id) #não está funcionando 
+    
+    
     if request.method == "POST":
                 
         user_answer = request.POST.get('resposta')
