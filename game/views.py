@@ -7,12 +7,12 @@ from django.templatetags.static import static
 
 def index_game(request,user_id):
     path = '../../static/QA.json'
-
+    
     user = get_object_or_404(User, pk=user_id)
     # score = Score.objects.filter(user=user) não está funcionando 
 
     if request.method == "POST":
-
+                
         user_answer = request.POST.get('resposta')
         question_data = request.POST.get('pergunta')
 
@@ -47,7 +47,7 @@ def index_game(request,user_id):
                 "explanation": explanation,
                 "message": message,
                 "user_id":user_id,
-                #"score": score.score
+                #"score ":score.score
             })
     
     with open(static(path=path), 'r') as qa:
