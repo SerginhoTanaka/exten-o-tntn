@@ -28,8 +28,11 @@ def index_game(request,user_id):
             if question['Pergunta'] == question_data:
                 if question['Resposta'] == user_answer:
                     message = 'Parabéns, você acertou'
+                    score.score += 10
+                    score.save()
                 else:
                     message = 'Errou! Estude mais, filisteu incircunciso'
+                    score.score -= 5
 
                 correct_answer = question['Alternativas'][question['Resposta']]
                 actual_question = question['Pergunta']
@@ -37,10 +40,7 @@ def index_game(request,user_id):
 
 
             
-        if user_answer == correct_answer:
-            # score.score += 100
-            # score.save()
-            pass
+
     
         return render(request, "game/explanation.html", { 
                 "question": actual_question,
@@ -48,7 +48,7 @@ def index_game(request,user_id):
                 "explanation": explanation,
                 "message": message,
                 "user_id":user_id,
-                #"score ":score.score
+                "score ": score.score
             })
     
     with open(static(path=path), 'r') as qa:
