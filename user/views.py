@@ -1,20 +1,21 @@
 from django.shortcuts import render,redirect
 from django.contrib.auth import authenticate
 from django.core.validators import validate_email,ValidationError
-from django.contrib.auth.models import User 
+from user.models import User 
 
 
 def index(request):
     if request.method == 'POST':
         username = request.POST['user']
         password = request.POST['password']
-        user = authenticate(request, username=username, password=password)
+        user = User.objects.get(username=username)
         if user is not None:
-            user_id = user.id
+            if user.password == password:
+                user_id = user.id
 
-            return redirect('index_game', user_id = user_id)
+                return redirect('index_game', user_id = user_id)
         
-    return render(request, 'user/index.html')
+    return render(request, 'user/index.html', {'error': 'Bad credencials'})
 
 def signup(request):
     if request.method == 'POST':
@@ -45,7 +46,7 @@ def signup(request):
         if User.objects.filter(email=email).exists():
             return render(request, 'user/signup.html', {'error': 'Email already taken'})
 
-        user = User.objects.create_user(first_name=name,username=username, email=email, password=password)
+        user = User(name=name,username=username, email=email, password=password)
         user.save()
 
         return redirect('index')

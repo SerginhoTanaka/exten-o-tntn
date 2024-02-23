@@ -1,16 +1,16 @@
-from django.shortcuts import render, get_object_or_404
-from django.contrib.auth.models import User
-from user.models import Score
+from django.shortcuts import render
+
+from user.models import User
 import json
 import random
 from django.templatetags.static import static
 
-def index_game(request,user_id):
+
+def index_game(request, user_id):
+
     path = '../../static/QA.json'
     
-    user = get_object_or_404(User, pk=user_id)
-    score = Score.objects.filter(user=user_id) #não está funcionando 
-    
+    user = User.objects.get(pk=user_id)
     
     if request.method == "POST":
                 
@@ -20,7 +20,6 @@ def index_game(request,user_id):
         with open(static(path=path), 'r') as qa:
             data = json.load(qa)
 
-
         correct_answer = ''
         message = ''
         explanation = ''
@@ -28,27 +27,24 @@ def index_game(request,user_id):
             if question['Pergunta'] == question_data:
                 if question['Resposta'] == user_answer:
                     message = 'Parabéns, você acertou'
-                    score.score += 10
-                    score.save()
+                    user.score += 10
+                    user.save()
                 else:
                     message = 'Errou! Estude mais, filisteu incircunciso'
-                    score.score -= 5
+                    user.score -= 5
+                    user.save()
 
                 correct_answer = question['Alternativas'][question['Resposta']]
                 actual_question = question['Pergunta']
                 explanation = question['Explicacao']
-
-
-            
-
     
         return render(request, "game/explanation.html", { 
                 "question": actual_question,
                 "correct_answer": correct_answer,
                 "explanation": explanation,
                 "message": message,
-                "user_id":user_id,
-                "score ": score.score
+                "user_id": user_id,
+                "score": user.score
             })
     
     with open(static(path=path), 'r') as qa:
@@ -57,6 +53,6 @@ def index_game(request,user_id):
     question = data[random.choice(list(data.keys()))]
     return render(request, "game/index_game.html", {
         "question": question,
-        "user_id":user_id
+        "user_id": user_id
     })
 
