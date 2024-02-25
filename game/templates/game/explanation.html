@@ -2,16 +2,18 @@
 {% load static %}
 
 {% block content %}
-    <div class="h-screen flex items-center justify-center content-center text-black">
-        <div class="p-4">
-            <p class="text-center text-xl mb-2">Pergunta: {{ question }}</p>
-            <p class="text-center text-xl mb-2"> {{ message }}</p>
-            <p class="text-center text-xl mb-2">Resposta correta: {{ correct_answer }}</p>
-            <p class="text-center text-xl mb-2">Explicação: {{ explanation }}</p>
-            <p class="text-center text-xl mb-2">Pontuação : {{ score }}</p>
-            <button class="w-full text-black bg-black hover:text-purple-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-                <a class="text-xl mb-2 button" href="{% url 'index_game' user_id%}">Nova pergunta</a>
-            </button>
+    <div class="h-screen flex items-center justify-center content-center text-white bg-gray-900">
+        <div style="padding: 2rem;" class="p-4 w-full rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+            <p class="font-bold text-center text-xl mb-2"> {{ message }}</p>
+            <p class="font-bold text-center text-l mb-2">Resposta correta: {{ correct_answer }}</p>
+            <p class="text-center text-l mb-2">Explicação: {{ explanation }}</p>
+            <p class="text-center text-l mb-2">Pontuação : {{ score }}</p>
+            <div class="w-full text-center">
+                <a class="text-l text-center mb-2 button" href="{% url 'index_game' user_id%}">
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Nova pergunta</button>
+                </a>
+            </div>
+
         </div>
     </div>
 {% endblock %}

@@ -2,23 +2,25 @@
 {% load static %}
 
 {% block content %}
-    <div class="h-screen flex flex-col justify-between text-black">
-        <div class="p-4">
-            <h1 class="text-2xl font-bold mb-4">Testando os hereges</h1>
-            <form method="POST" action="{% url 'index_game' user_id %}">
+    <div class="h-screen flex items-center justify-center text-white bg-gray-900">
+        <div style="padding: 2rem;" class=" w-24 border-gray-500 p-8 w-full rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+            <h1 class="text-2xl font-bold mb-4 text-center">Testando os hereges</h1>
+            <form class="flex flex-col items-center" method="POST" action="{% url 'index_game' user_id %}">
                 {% csrf_token %}
-                <p class="text-xl mb-2">{{ question.Pergunta }}</p>
-                <ul>
-                {% for key, option in question.Alternativas.items %}
-                    <li>
-                        <label class="inline-flex items-center">
-                            <input type="radio" name="resposta" value="{{ key }}" class="form-radio text-indigo-600">
-                            <span class="ml-2">{{ key }}: {{ option }}</span>
-                        </label>
-                    </li>
-                {% endfor %}
-                <input type="hidden" name="pergunta" value="{{ question.Pergunta }}">
-                </ul>
+                <p class="text-center text-xl mb-2">{{ question.Pergunta }}</p>
+                <div class="w-full">
+                    <ul class="text-left ml-6">
+                    {% for key, option in question.Alternativas.items %}
+                        <li>
+                            <label class="text-left">
+                                <input type="radio" name="resposta" value="{{ key }}" class="form-radio text-indigo-600">
+                                <span class="ml-2">{{ key }}: {{ option }}</span>
+                            </label>
+                        </li>
+                    {% endfor %}
+                    <input type="hidden" name="pergunta" value="{{ question.Pergunta }}">
+                    </ul>
+                </div>
                 <div class="mt-4">
                     <input type="submit" value="Enviar Respostas" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
                 </div>

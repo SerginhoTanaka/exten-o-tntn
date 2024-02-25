@@ -9,7 +9,7 @@ from django.templatetags.static import static
 def index_game(request, user_id):
 
     path = '../../static/QA.json'
-    
+
     user = User.objects.get(pk=user_id)
     
     if request.method == "POST":
@@ -26,7 +26,7 @@ def index_game(request, user_id):
         for question in data.values():
             if question['Pergunta'] == question_data:
                 if question['Resposta'] == user_answer:
-                    message = 'Parabéns, você acertou'
+                    message = 'Parabéns, você acertou!'
                     user.score += 10
                     user.save()
                 else:
