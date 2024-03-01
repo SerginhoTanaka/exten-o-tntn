@@ -31,24 +31,24 @@ def signup(request):
         password2 = request.POST.get('password_confirmation')
 
         if not username or not password or not password2 or not email:
-            return render(request, 'user/signup.html', {'error': 'Please fill all the fields'})
+            return render(request, 'user/signup.html', {'error': 'Preencha todos os campos'})
         
         try:
             validate_email(email)
         except ValidationError:
-            return render(request, 'user/signup.html', {'error': 'Please enter a valid email'})
+            return render(request, 'user/signup.html', {'error': 'Email inválido'})
 
         if password != password2:
-            return render(request, 'user/signup.html', {'error': 'Passwords do not match'})
+            return render(request, 'user/signup.html', {'error': 'As senhas não são iguais'})
         
         if len(password) < 6:
-            return render(request, 'user/signup.html', {'error': 'Password must be at least 6 characters'})
+            return render(request, 'user/signup.html', {'error': 'Senhas precisam possuir no mínimo 6 caracteres'})
         
         if User.objects.filter(username=username).exists():
-            return render(request, 'user/signup.html', {'error': 'Username already taken'})
+            return render(request, 'user/signup.html', {'error': 'Usuário já cadastrado'})
         
         if User.objects.filter(email=email).exists():
-            return render(request, 'user/signup.html', {'error': 'Email already taken'})
+            return render(request, 'user/signup.html', {'error': 'Email já cadastrado'})
 
         user = User(name=name,username=username, email=email, password=password)
         user.save()

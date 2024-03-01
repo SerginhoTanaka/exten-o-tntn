@@ -1,62 +1,57 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
 from user.models import User
 import json
 import random
 from django.templatetags.static import static
 
 
-def index_game(request, user_id):
+def index_game(request, user_id, question_id=None):
 
-    path = '../../static/QA.json'
-
-    user = User.objects.get(pk=user_id)
-    
     if request.method == "POST":
-                
-        user_answer = request.POST.get('resposta')
-        question_data = request.POST.get('pergunta')
 
+        user_answer = request.POST.get('resposta')
+        path = '../../static/QA.json'
+        user = User.objects.get(pk=user_id)
+        
         with open(static(path=path), 'r') as qa:
             data = json.load(qa)
 
-        correct_answer = ''
-        message = ''
-        explanation = ''
-        for question in data.values():
-            if question['Pergunta'] == question_data:
-                if question['Resposta'] == user_answer:
-                    message = 'Parabéns, você acertou!'
-                    user.score += 10
-                    user.save()
-                else:
-                    message = 'Errou! Estude mais, filisteu incircunciso'
-                    user.score -= 5
-                    user.save()
+        question = data[str(question_id)]
 
-                correct_answer = question['Alternativas'][question['Resposta']]
-                actual_question = question['Pergunta']
-                explanation = question['Explicacao']
+        if question['Resposta'] == user_answer:
+            message = 'Parabéns, você acertou!'
+            user.score += 10
+            user.save()
+        else:
+            message = 'Errou! Estude mais, filisteu incircunciso'
+            user.score -= 5
+            user.save()
 
         data = {
-            "question": actual_question,
-            "correct_answer": correct_answer,
-            "explanation": explanation,
+            "question": question['Pergunta'],
+            "correct_answer": question['Alternativas'][question['Resposta']],
+            "explanation": question['Explicacao'],
             "message": message,
             "user_id": user_id,
-            "score": user.score
+            "score": user.score,
         }
+
         return render(request, "game/explanation.html", data)
+
+    path = '../../static/QA.json'
     
     with open(static(path=path), 'r') as qa:
         data = json.load(qa)
 
-    question = data[random.choice(list(data.keys()))]
-    return render(request, "game/index_game.html", {
+    question_id = int(random.choice(list(data.keys())))
+    question = data[str(question_id)]
+    data = {
         "question": question,
-        "user_id": user_id
-    })
+        "user_id": user_id,
+        "question_id": question_id
+    }
 
+    return render(request, "game/index_game.html", data)
 
 def leaderboard(request, user_id):
 
@@ -66,4 +61,3 @@ def leaderboard(request, user_id):
         "users": users,
         "user_id": user_id
         })
-

@@ -16,7 +16,7 @@
         <div style="padding: 2rem;"
             class=" w-24 border-gray-500 p-8 w-full rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
             <h1 class="text-2xl font-bold mb-4 text-center">Testando os hereges</h1>
-            <form class="flex flex-col items-center" method="POST" action="{% url 'index_game' user_id %}">
+            <form class="flex flex-col items-center" method="POST" action="{% url 'index_game' user_id question_id %}">
                 {% csrf_token %}
                 <p class="text-center text-xl mb-2">{{ question.Pergunta }}</p>
                 <div class="w-full">
