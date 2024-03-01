@@ -56,3 +56,13 @@ def index_game(request, user_id):
         "user_id": user_id
     })
 
+
+def leaderboard(request, user_id):
+
+    users = User.objects.all().order_by('-score')[:10]
+
+    return render(request, "game/leaderboard.html", {
+        "users": users,
+        "user_id": user_id
+        })
+

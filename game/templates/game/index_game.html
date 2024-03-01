@@ -2,11 +2,16 @@
 {% load static %}
 
 {% block content %}
-<div class="h-screen bg-gray-900">
+<div class="h-screen bg-gray-900 text-white">
 
-    <a href="{%url 'index'%}">
-        <img class="w-40" src="../../../static/logo.png" alt="logo">
-    </a>
+    <div class="flex justify-between items-center">
+        <a href="{%url 'index'%}">
+            <img class="w-40" src="../../../static/logo.png" alt="logo">
+        </a>
+        <div class="w-40">
+            <a class="text-center font-bold" href="{% url 'leaderboard' user_id %}">Ranking</a>
+        </div>
+    </div>
     <div class="my-1 flex items-center justify-center text-white bg-gray-900">
         <div style="padding: 2rem;"
             class=" w-24 border-gray-500 p-8 w-full rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">

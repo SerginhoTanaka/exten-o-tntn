@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="h-screen bg-gray-900 text-white">
+
+    <div class="flex justify-between items-center">
+        <a href="{%url 'index'%}">
+            <img class="w-40" src="../../../static/logo.png" alt="logo">
+        </a>
+        <div class="w-40">
+            <a class="text-center font-bold" href="{% url 'index_game' user_id%}">Jogar</a>
+        </div>
+    </div>
+    <div class="my-1 flex items-center justify-center text-white bg-gray-900">
+        <div style="padding: 2rem;"
+            class="border-gray-500 p-8 w-full rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+            <h1 class="text-4xl font-bold text-center">Ranking</h1>
+            <div class="my-8 flex flex-col">
+                <div class="text-xl font-bold flex justify-center">
+                    <div class="w-40 text-center">Usuário</div>
+                    <div class="w-40 text-center">Pontuação</div>
+                </div>
+                {% for user in users %}
+                <div class="text-l flex justify-center">
+                    <div class="w-40 text-center">{{user.username}}</div>
+                    <div class="w-40 text-center">{{user.score}}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
