@@ -37,15 +37,16 @@ def index_game(request, user_id):
                 correct_answer = question['Alternativas'][question['Resposta']]
                 actual_question = question['Pergunta']
                 explanation = question['Explicacao']
-    
-        return render(request, "game/explanation.html", { 
-                "question": actual_question,
-                "correct_answer": correct_answer,
-                "explanation": explanation,
-                "message": message,
-                "user_id": user_id,
-                "score": user.score
-            })
+
+        data = {
+            "question": actual_question,
+            "correct_answer": correct_answer,
+            "explanation": explanation,
+            "message": message,
+            "user_id": user_id,
+            "score": user.score
+        }
+        return render(request, "game/explanation.html", data)
     
     with open(static(path=path), 'r') as qa:
         data = json.load(qa)

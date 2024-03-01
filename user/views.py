@@ -1,5 +1,4 @@
 from django.shortcuts import render,redirect
-from django.contrib.auth import authenticate
 from django.core.validators import validate_email,ValidationError
 from user.models import User 
 
@@ -8,14 +7,19 @@ def index(request):
     if request.method == 'POST':
         username = request.POST['user']
         password = request.POST['password']
-        user = User.objects.get(username=username)
-        if user is not None:
-            if user.password == password:
-                user_id = user.id
 
-                return redirect('index_game', user_id = user_id)
+        try:
+            user = User.objects.get(username=username)
+        except:
+            user = None
+
+        if user is not None and user.password == password:
+            user_id = user.id
+            return redirect('index_game', user_id = user_id)
+        else:
+            return render(request, 'user/index.html', {'error': 'Usuário ou senha inválidos'})
         
-    return render(request, 'user/index.html', {'error': 'Bad credencials'})
+    return render(request, 'user/index.html')
 
 def signup(request):
     if request.method == 'POST':
