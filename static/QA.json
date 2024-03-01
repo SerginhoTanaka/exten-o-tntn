@@ -110,224 +110,608 @@
         "Explicacao": "O livro de Jó relata a história de um homem chamado Jó que enfrentou muitas provações e é encontrado no livro de Jó, no Antigo Testamento."
     },
     "11": {
-      "Pergunta": "Onde Jesus nasceu?",
-      "Alternativas": {
-      "a": "Jerusalém",
-      "b": "Cafarnaum",
-      "c": "Belém",
-      "d": "Nazaré"
-      },
-      "Resposta": "c",
-      "Explicacao": "Jesus nasceu em Belém, conforme registrado nos Evangelhos."
-      },
-      "12": {
-      "Pergunta": "Quem sucedeu Moisés como líder do povo durante a peregrinação no deserto?",
-      "Alternativas": {
-      "a": "Josué",
-      "b": "Arão",
-      "c": "Calebe",
-      "d": "Eliseu"
-      },
-      "Resposta": "a",
-      "Explicacao": "Josué sucedeu Moisés como líder do povo de Israel durante a peregrinação no deserto, conduzindo-os à Terra Prometida."
-      },
-      "13": {
-      "Pergunta": "Quem foi curado por Jesus no tanque de Betesda?",
-      "Alternativas": {
-      "a": "Um cego",
-      "b": "Um leproso",
-      "c": "Um surdo",
-      "d": "Um paralítico"
-      },
-      "Resposta": "d",
-      "Explicacao": "Um paralítico foi curado por Jesus no tanque de Betesda, como registrado no Evangelho."
-      },
-      "14": {
-      "Pergunta": "Quantos livros a bíblia protestante possui?",
-      "Alternativas": {
-      "a": "68",
-      "b": "73",
-      "c": "66",
-      "d": "64"
-      },
-      "Resposta": "c",
-      "Explicacao": "A bíblia protestante possui 66 livros em sua versão padrão."
-      },
-      "15": {
-      "Pergunta": "Qual era o nome do primeiro filho de Abraão?",
-      "Alternativas": {
-      "a": "Isaque",
-      "b": "José",
-      "c": "Midiã",
-      "d": "Ismael"
-      },
-      "Resposta": "d",
-      "Explicacao": "O primeiro filho de Abraão foi Ismael, conforme relatado na Bíblia."
-      },
-      "16": {
-      "Pergunta": "Quem teve uma luta com Deus e passou a ser chamado Israel?",
-      "Alternativas": {
-      "a": "Moisés",
-      "b": "Jacó",
-      "c": "Isaque",
-      "d": "Judá"
-      },
-      "Resposta": "b",
-      "Explicacao": "Jacó teve uma luta com Deus e passou a ser chamado Israel, conforme registrado na Bíblia."
-      },
-      "17": {
-      "Pergunta": "Qual dos filhos de Davi passou a ser rei após a sua morte?",
-      "Alternativas": {
-      "a": "Absalão",
-      "b": "Adonias",
-      "c": "Salomão",
-      "d": "Daniel"
-      },
-      "Resposta": "c",
-      "Explicacao": "Salomão sucedeu Davi como rei de Israel após a morte de seu pai."
-      },
-      "18": {
-      "Pergunta": "Qual era a profissão do apóstolo Paulo?",
-      "Alternativas": {
-      "a": "Fabricante de tendas",
-      "b": "Pescador",
-      "c": "Escriba",
-      "d": "Curtidor de couro"
-      },
-      "Resposta": "a",
-      "Explicacao": "Paulo era fabricante de tendas, conforme mencionado em Atos 18:3."
-      },
-      "19": {
-      "Pergunta": "Para qual cidade Saulo estava viajando quando encontrou-se com Jesus?",
-      "Alternativas": {
-      "a": "Tarso",
-      "b": "Jerusalém",
-      "c": "Atenas",
-      "d": "Damasco"
-      },
-      "Resposta": "d",
-      "Explicacao": "Saulo estava viajando para Damasco quando teve seu encontro com Jesus, conforme relatado em Atos 9."
-      },
-      "20": {
-      "Pergunta": "Em qual cidade os seguidores de Cristo foram chamados de cristãos pela primeira vez?",
-      "Alternativas": {
-      "a": "Antioquia",
-      "b": "Jerusalém",
-      "c": "Chipre",
-      "d": "Éfeso"
-      },
-      "Resposta": "a",
-      "Explicacao": "Os seguidores de Cristo foram chamados de cristãos pela primeira vez em Antioquia, como mencionado em Atos 11:26."
-      },
-      "21": {
-      "Pergunta": "Qual homem viveu por mais tempo relatado na bíblia?",
-      "Alternativas": {
-      "a": "Abraão",
-      "b": "Enos",
-      "c": "Noé",
-      "d": "Matusalém"
-      },
-      "Resposta": "d",
-      "Explicacao": "Matusalém é considerado o homem que viveu por mais tempo na Bíblia, alcançando 969 anos."
-      },
-      "22": {
-      "Pergunta": "Para quem Lucas escreveu a carta que chamamos de livro de Atos?",
-      "Alternativas": {
-      "a": "Teófilo",
-      "b": "Aquila",
-      "c": "Timóteo",
-      "d": "Tito"
-      },
-      "Resposta": "a",
-      "Explicacao": "Lucas escreveu o livro de Atos para Teófilo, como mencionado em Lucas 1:3 e Atos 1:1."
-      },
-      "23": {
-      "Pergunta": "Qual mestre da lei Jesus falou que deveria nascer de novo?",
-      "Alternativas": {
-      "a": "Gamaliel",
-      "b": "Hilel",
-      "c": "Nicodemus",
-      "d": "Caifás"
-      },
-      "Resposta": "c",
-      "Explicacao": "Jesus falou com Nicodemus sobre a necessidade de nascer de novo, conforme registrado em João 3:1-21."
-      },
-      "24": {
-      "Pergunta": "Qual festa era celebrada no momento da descida do Espírito Santos?",
-      "Alternativas": {
-      "a": "Páscoa",
-      "b": "Festa dos Tabernáculos",
-      "c": "Pentecostes",
-      "d": "Dia do perdão"
-      },
-      "Resposta": "c",
-      "Explicacao": "A descida do Espírito Santo ocorreu durante a festa de Pentecostes, como descrito em Atos 2."
-      },
-      "25": {
-      "Pergunta": "Qual livro o etíope estava lendo quando se encontrou com Filipe?",
-      "Alternativas": {
-      "a": "Isaías",
-      "b": "Samuel",
-      "c": "Jeremias",
-      "d": "Êxodo"
-      },
-      "Resposta": "a",
-      "Explicacao": "O etíope estava lendo o livro de Isaías quando se encontrou com Filipe, conforme relatado em Atos 8:30-39."
-      },
-      "26": {
-      "Pergunta": "Quem presenciou o momento da sarça pegando fogo?",
-      "Alternativas": {
-      "a": "Josué",
-      "b": "Abraão",
-      "c": "Paulo",
-      "d": "Moisés"
-      },
-      "Resposta": "d",
-      "Explicacao": "Moisés presenciou o momento da sarça pegando fogo, quando Deus falou com ele, conforme registrado em Êxodo 3."
-      },
-      "27": {
-      "Pergunta": "Qual é considerado o primeiro patriarca de Israel?",
-      "Alternativas": {
-      "a": "Moisés",
-      "b": "Jacó",
-      "c": "Abraão",
-      "d": "Isaque"
-      },
-      "Resposta": "c",
-      "Explicacao": "Abraão é considerado o primeiro patriarca de Israel, sendo chamado por Deus para ser o pai de uma grande nação."
-      },
-      "28": {
-      "Pergunta": "Qual foi o rei que terminou a construção do templo em Jerusalém?",
-      "Alternativas": {
-      "a": "Josias",
-      "b": "Salomão",
-      "c": "Davi",
-      "d": "Roboão"
-      },
-      "Resposta": "b",
-      "Explicacao": "Salomão foi o rei que terminou a construção do Templo em Jerusalém, conforme registrado em 1 Reis 6-7."
-      },
-      "29": {
-      "Pergunta": "Quem foi o rei que se casou com a fenícia Jezabel?",
-      "Alternativas": {
-      "a": "Davi",
-      "b": "Salomão",
-      "c": "Acabe",
-      "d": "Saúl"
-      },
-      "Resposta": "c",
-      "Explicacao": "Acabe foi o rei que se casou com Jezabel, como mencionado na Bíblia."
-      },
-      "30": {
-      "Pergunta": "Qual discípulo de Jesus pediu para ver as marcas dos pregos em suas mãos?",
-      "Alternativas": {
-      "a": "Tomé",
-      "b": "Tiago",
-      "c": "Judas",
-      "d": "João"
-      },
-      "Resposta": "a",
-      "Explicacao": "Tomé pediu para ver as marcas dos pregos em suas mãos para confirmar a ressurreição de Jesus, conforme registrado em João 20:24-29."
-      }
-  }
-  
+        "Pergunta": "Onde Jesus nasceu?",
+        "Alternativas": {
+            "a": "Jerusalém",
+            "b": "Cafarnaum",
+            "c": "Belém",
+            "d": "Nazaré"
+        },
+        "Resposta": "c",
+        "Explicacao": "Jesus nasceu em Belém, conforme registrado nos Evangelhos."
+    },
+    "12": {
+        "Pergunta": "Quem sucedeu Moisés como líder do povo durante a peregrinação no deserto?",
+        "Alternativas": {
+            "a": "Josué",
+            "b": "Arão",
+            "c": "Calebe",
+            "d": "Eliseu"
+        },
+        "Resposta": "a",
+        "Explicacao": "Josué sucedeu Moisés como líder do povo de Israel durante a peregrinação no deserto, conduzindo-os à Terra Prometida."
+    },
+    "13": {
+        "Pergunta": "Quem foi curado por Jesus no tanque de Betesda?",
+        "Alternativas": {
+            "a": "Um cego",
+            "b": "Um leproso",
+            "c": "Um surdo",
+            "d": "Um paralítico"
+        },
+        "Resposta": "d",
+        "Explicacao": "Um paralítico foi curado por Jesus no tanque de Betesda, como registrado no Evangelho."
+    },
+    "14": {
+        "Pergunta": "Quantos livros a bíblia protestante possui?",
+        "Alternativas": {
+            "a": "68",
+            "b": "73",
+            "c": "66",
+            "d": "64"
+        },
+        "Resposta": "c",
+        "Explicacao": "A bíblia protestante possui 66 livros em sua versão padrão."
+    },
+    "15": {
+        "Pergunta": "Qual era o nome do primeiro filho de Abraão?",
+        "Alternativas": {
+            "a": "Isaque",
+            "b": "José",
+            "c": "Midiã",
+            "d": "Ismael"
+        },
+        "Resposta": "d",
+        "Explicacao": "O primeiro filho de Abraão foi Ismael, conforme relatado na Bíblia."
+    },
+    "16": {
+        "Pergunta": "Quem teve uma luta com Deus e passou a ser chamado Israel?",
+        "Alternativas": {
+            "a": "Moisés",
+            "b": "Jacó",
+            "c": "Isaque",
+            "d": "Judá"
+        },
+        "Resposta": "b",
+        "Explicacao": "Jacó teve uma luta com Deus e passou a ser chamado Israel, conforme registrado na Bíblia."
+    },
+    "17": {
+        "Pergunta": "Qual dos filhos de Davi passou a ser rei após a sua morte?",
+        "Alternativas": {
+            "a": "Absalão",
+            "b": "Adonias",
+            "c": "Salomão",
+            "d": "Daniel"
+        },
+        "Resposta": "c",
+        "Explicacao": "Salomão sucedeu Davi como rei de Israel após a morte de seu pai."
+    },
+    "18": {
+        "Pergunta": "Qual era a profissão do apóstolo Paulo?",
+        "Alternativas": {
+            "a": "Fabricante de tendas",
+            "b": "Pescador",
+            "c": "Escriba",
+            "d": "Curtidor de couro"
+        },
+        "Resposta": "a",
+        "Explicacao": "Paulo era fabricante de tendas, conforme mencionado em Atos 18:3."
+    },
+    "19": {
+        "Pergunta": "Para qual cidade Saulo estava viajando quando encontrou-se com Jesus?",
+        "Alternativas": {
+            "a": "Tarso",
+            "b": "Jerusalém",
+            "c": "Atenas",
+            "d": "Damasco"
+        },
+        "Resposta": "d",
+        "Explicacao": "Saulo estava viajando para Damasco quando teve seu encontro com Jesus, conforme relatado em Atos 9."
+    },
+    "20": {
+        "Pergunta": "Em qual cidade os seguidores de Cristo foram chamados de cristãos pela primeira vez?",
+        "Alternativas": {
+            "a": "Antioquia",
+            "b": "Jerusalém",
+            "c": "Chipre",
+            "d": "Éfeso"
+        },
+        "Resposta": "a",
+        "Explicacao": "Os seguidores de Cristo foram chamados de cristãos pela primeira vez em Antioquia, como mencionado em Atos 11:26."
+    },
+    "21": {
+        "Pergunta": "Qual homem viveu por mais tempo relatado na bíblia?",
+        "Alternativas": {
+            "a": "Abraão",
+            "b": "Enos",
+            "c": "Noé",
+            "d": "Matusalém"
+        },
+        "Resposta": "d",
+        "Explicacao": "Matusalém é considerado o homem que viveu por mais tempo na Bíblia, alcançando 969 anos."
+    },
+    "22": {
+        "Pergunta": "Para quem Lucas escreveu a carta que chamamos de livro de Atos?",
+        "Alternativas": {
+            "a": "Teófilo",
+            "b": "Aquila",
+            "c": "Timóteo",
+            "d": "Tito"
+        },
+        "Resposta": "a",
+        "Explicacao": "Lucas escreveu o livro de Atos para Teófilo, como mencionado em Lucas 1:3 e Atos 1:1."
+    },
+    "23": {
+        "Pergunta": "Qual mestre da lei Jesus falou que deveria nascer de novo?",
+        "Alternativas": {
+            "a": "Gamaliel",
+            "b": "Hilel",
+            "c": "Nicodemus",
+            "d": "Caifás"
+        },
+        "Resposta": "c",
+        "Explicacao": "Jesus falou com Nicodemus sobre a necessidade de nascer de novo, conforme registrado em João 3:1-21."
+    },
+    "24": {
+        "Pergunta": "Qual festa era celebrada no momento da descida do Espírito Santos?",
+        "Alternativas": {
+            "a": "Páscoa",
+            "b": "Festa dos Tabernáculos",
+            "c": "Pentecostes",
+            "d": "Dia do perdão"
+        },
+        "Resposta": "c",
+        "Explicacao": "A descida do Espírito Santo ocorreu durante a festa de Pentecostes, como descrito em Atos 2."
+    },
+    "25": {
+        "Pergunta": "Qual livro o etíope estava lendo quando se encontrou com Filipe?",
+        "Alternativas": {
+            "a": "Isaías",
+            "b": "Samuel",
+            "c": "Jeremias",
+            "d": "Êxodo"
+        },
+        "Resposta": "a",
+        "Explicacao": "O etíope estava lendo o livro de Isaías quando se encontrou com Filipe, conforme relatado em Atos 8:30-39."
+    },
+    "26": {
+        "Pergunta": "Quem presenciou o momento da sarça pegando fogo?",
+        "Alternativas": {
+            "a": "Josué",
+            "b": "Abraão",
+            "c": "Paulo",
+            "d": "Moisés"
+        },
+        "Resposta": "d",
+        "Explicacao": "Moisés presenciou o momento da sarça pegando fogo, quando Deus falou com ele, conforme registrado em Êxodo 3."
+    },
+    "27": {
+        "Pergunta": "Qual é considerado o primeiro patriarca de Israel?",
+        "Alternativas": {
+            "a": "Moisés",
+            "b": "Jacó",
+            "c": "Abraão",
+            "d": "Isaque"
+        },
+        "Resposta": "c",
+        "Explicacao": "Abraão é considerado o primeiro patriarca de Israel, sendo chamado por Deus para ser o pai de uma grande nação."
+    },
+    "28": {
+        "Pergunta": "Qual foi o rei que terminou a construção do templo em Jerusalém?",
+        "Alternativas": {
+            "a": "Josias",
+            "b": "Salomão",
+            "c": "Davi",
+            "d": "Roboão"
+        },
+        "Resposta": "b",
+        "Explicacao": "Salomão foi o rei que terminou a construção do Templo em Jerusalém, conforme registrado em 1 Reis 6-7."
+    },
+    "29": {
+        "Pergunta": "Quem foi o rei que se casou com a fenícia Jezabel?",
+        "Alternativas": {
+            "a": "Davi",
+            "b": "Salomão",
+            "c": "Acabe",
+            "d": "Saúl"
+        },
+        "Resposta": "c",
+        "Explicacao": "Acabe foi o rei que se casou com Jezabel, como mencionado na Bíblia."
+    },
+    "30": {
+        "Pergunta": "Qual discípulo de Jesus pediu para ver as marcas dos pregos em suas mãos?",
+        "Alternativas": {
+            "a": "Tomé",
+            "b": "Tiago",
+            "c": "Judas",
+            "d": "João"
+        },
+        "Resposta": "a",
+        "Explicacao": "Tomé pediu para ver as marcas dos pregos em suas mãos para confirmar a ressurreição de Jesus, conforme registrado em João 20:24-29."
+    },
+    "31": {
+        "Pergunta": "Quem foi escolhido para substituir Judas Iscariotes como apóstolo?",
+        "Alternativas": {
+            "a": "Matias",
+            "b": "Bartolomeu",
+            "c": "Tadeu",
+            "d": "Simão"
+        },
+        "Resposta": "a",
+        "Explicacao": "Matias foi escolhido para substituir Judas Iscariotes como apóstolo, conforme registrado em Atos 1:26."
+    },
+    "32": {
+        "Pergunta": "Qual dos profetas do Antigo Testamento foi conhecido por sua paciência durante suas provações?",
+        "Alternativas": {
+            "a": "Isaías",
+            "b": "Jeremias",
+            "c": "Ezequiel",
+            "d": "Jó"
+        },
+        "Resposta": "d",
+        "Explicacao": "Jó é conhecido por sua paciência durante as provações que enfrentou, conforme narrado no livro de Jó."
+    },
+    "33": {
+        "Pergunta": "Quem foi o primeiro rei de Israel?",
+        "Alternativas": {
+            "a": "Saul",
+            "b": "Davi",
+            "c": "Salomão",
+            "d": "Jeroboão"
+        },
+        "Resposta": "a",
+        "Explicacao": "Saul foi o primeiro rei de Israel, escolhido pelo povo e ungido por Samuel, como descrito na Bíblia."
+    },
+    "34": {
+        "Pergunta": "Qual era a profissão de Pedro antes de se tornar um apóstolo de Jesus?",
+        "Alternativas": {
+            "a": "Pescador",
+            "b": "Cobrador de impostos",
+            "c": "Carpinteiro",
+            "d": "Tecelão"
+        },
+        "Resposta": "a",
+        "Explicacao": "Pedro era um pescador antes de ser chamado por Jesus para se tornar um de seus apóstolos, conforme relatado nos Evangelhos."
+    },
+    "35": {
+        "Pergunta": "Quem foi a mulher samaritana que teve uma conversa significativa com Jesus junto ao poço?",
+        "Alternativas": {
+            "a": "Maria Madalena",
+            "b": "Ana",
+            "c": "Sara",
+            "d": "A mulher no poço"
+        },
+        "Resposta": "d",
+        "Explicacao": "A mulher samaritana que teve uma conversa significativa com Jesus junto ao poço é frequentemente referida como 'a mulher no poço', conforme registrado em João 4."
+    },
+    "36": {
+        "Pergunta": "Quem foi o profeta que realizou milagres notáveis, incluindo a divisão das águas do rio Jordão?",
+        "Alternativas": {
+            "a": "Isaías",
+            "b": "Elias",
+            "c": "Eliseu",
+            "d": "Jeremias"
+        },
+        "Resposta": "c",
+        "Explicacao": "O profeta Eliseu realizou milagres notáveis, incluindo a divisão das águas do rio Jordão, seguindo os passos de seu mentor Elias."
+    },
+    "37": {
+        "Pergunta": "Qual era o nome do monte onde Elias desafiou os profetas de Baal?",
+        "Alternativas": {
+            "a": "Monte Sinai",
+            "b": "Monte Carmelo",
+            "c": "Monte Horebe",
+            "d": "Monte das Oliveiras"
+        },
+        "Resposta": "b",
+        "Explicacao": "Elias desafiou os profetas de Baal no Monte Carmelo, onde ocorreu um notável confronto espiritual, conforme registrado em 1 Reis 18."
+    },
+    "38": {
+        "Pergunta": "Quem foi o primeiro apóstolo a reconhecer Jesus como o Messias?",
+        "Alternativas": {
+            "a": "Pedro",
+            "b": "André",
+            "c": "João",
+            "d": "Tiago"
+        },
+        "Resposta": "a",
+        "Explicacao": "Pedro foi o primeiro apóstolo a reconhecer Jesus como o Messias, conforme relatado nos Evangelhos."
+    },
+    "39": {
+        "Pergunta": "Qual é o último livro da Bíblia?",
+        "Alternativas": {
+            "a": "Gênesis",
+            "b": "Apocalipse",
+            "c": "Mateus",
+            "d": "Salmos"
+        },
+        "Resposta": "b",
+        "Explicacao": "O último livro da Bíblia é o Apocalipse, que contém visões proféticas atribuídas a João."
+    },
+    "40": {
+        "Pergunta": "Quem foi o profeta que realizou milagres durante o reinado de Acabe e Jezabel em Israel?",
+        "Alternativas": {
+            "a": "Isaías",
+            "b": "Jeremias",
+            "c": "Elias",
+            "d": "Eliseu"
+        },
+        "Resposta": "c",
+        "Explicacao": "O profeta Elias realizou milagres notáveis durante o reinado de Acabe e Jezabel em Israel, confrontando os profetas de Baal."
+    },
+    "41": {
+        "Pergunta": "Qual dos apóstolos era conhecido como 'o discípulo amado'?",
+        "Alternativas": {
+            "a": "Pedro",
+            "b": "André",
+            "c": "João",
+            "d": "Tiago"
+        },
+        "Resposta": "c",
+        "Explicacao": "João, um dos apóstolos, era conhecido como 'o discípulo amado', e é frequentemente associado a escritos como o Evangelho de João e as epístolas joaninas."
+    },
+    "42": {
+        "Pergunta": "Quem foi o profeta que denunciou o rei Davi por seu pecado com Bate-Seba?",
+        "Alternativas": {
+            "a": "Isaías",
+            "b": "Jeremias",
+            "c": "Natan",
+            "d": "Samuel"
+        },
+        "Resposta": "c",
+        "Explicacao": "O profeta Natan confrontou o rei Davi por seu pecado com Bate-Seba, contando-lhe uma parábola que o levou ao arrependimento, conforme registrado em 2 Samuel 12."
+    },
+    "43": {
+        "Pergunta": "Quem era o pai de João Batista?",
+        "Alternativas": {
+            "a": "Zacarias",
+            "b": "Simeão",
+            "c": "Elias",
+            "d": "Abraão"
+        },
+        "Resposta": "a",
+        "Explicacao": "Zacarias era o pai de João Batista, e sua história é narrada no início do Evangelho de Lucas."
+    },
+    "44": {
+        "Pergunta": "Qual discípulo de Jesus era conhecido por sua negação antes do galo cantar três vezes?",
+        "Alternativas": {
+            "a": "Pedro",
+            "b": "João",
+            "c": "André",
+            "d": "Tiago"
+        },
+        "Resposta": "a",
+        "Explicacao": "Pedro, um dos principais discípulos de Jesus, é conhecido por sua negação antes do galo cantar três vezes, como predito por Jesus."
+    },
+    "45": {
+        "Pergunta": "Quem foi o líder israelita que conduziu a conquista de Jericó, derrubando suas muralhas?",
+        "Alternativas": {
+            "a": "Josué",
+            "b": "Moisés",
+            "c": "Gideão",
+            "d": "Sansão"
+        },
+        "Resposta": "a",
+        "Explicacao": "Josué foi o líder israelita que conduziu a conquista de Jericó, derrubando suas muralhas de acordo com a orientação divina."
+    },
+    "46": {
+        "Pergunta": "Quem foi o profeta que desafiou os profetas de Baal no monte Carmelo?",
+        "Alternativas": {
+            "a": "Ezequiel",
+            "b": "Eliseu",
+            "c": "Miquéias",
+            "d": "Elias"
+        },
+        "Resposta": "d",
+        "Explicacao": "O profeta Elias desafiou os profetas de Baal no monte Carmelo, demonstrando o poder do Deus verdadeiro, conforme registrado em 1 Reis 18."
+    },
+    "47": {
+        "Pergunta": "Qual discípulo de Jesus foi conhecido como 'o Zelote'?",
+        "Alternativas": {
+            "a": "André",
+            "b": "Pedro",
+            "c": "Judas Iscariotes",
+            "d": "Simão"
+        },
+        "Resposta": "d",
+        "Explicacao": "Simão, chamado de Zelote, foi um dos doze discípulos de Jesus. O termo 'Zelote' pode indicar uma associação com um movimento político da época."
+    },
+    "48": {
+        "Pergunta": "Quem foi o profeta que viu um vale cheio de ossos secos reviverem pela palavra de Deus?",
+        "Alternativas": {
+            "a": "Jeremias",
+            "b": "Isaías",
+            "c": "Ezequiel",
+            "d": "Malaquias"
+        },
+        "Resposta": "c",
+        "Explicacao": "O profeta Ezequiel teve a visão do vale de ossos secos revivendo pela palavra de Deus, simbolizando a restauração de Israel, conforme registrado em Ezequiel 37."
+    },
+    "49": {
+        "Pergunta": "Quem era o cobrador de impostos chamado por Jesus para ser Seu discípulo?",
+        "Alternativas": {
+            "a": "Mateus",
+            "b": "Simão Pedro",
+            "c": "Filipe",
+            "d": "Tiago, filho de Zebedeu"
+        },
+        "Resposta": "a",
+        "Explicacao": "Mateus, também conhecido como Levi, era um cobrador de impostos chamado por Jesus para ser Seu discípulo, como registrado em Mateus 9."
+    },
+    "50": {
+        "Pergunta": "Quem foi o profeta que realizou milagres, incluindo fazer um machado flutuar na água?",
+        "Alternativas": {
+            "a": "Eliseu",
+            "b": "Isaías",
+            "c": "Jeremias",
+            "d": "Ezequiel"
+        },
+        "Resposta": "a",
+        "Explicacao": "Eliseu, sucessor de Elias, realizou diversos milagres, incluindo o episódio do machado flutuante, conforme narrado em 2 Reis 6."
+    },
+    "51": {
+        "Pergunta": "Quem foi o profeta que teve visões dos céus, dos serafins e recebeu a missão de proclamar mensagens de juízo e consolo?",
+        "Alternativas": {
+            "a": "Ezequiel",
+            "b": "Isaías",
+            "c": "Jeremias",
+            "d": "Daniel"
+        },
+        "Resposta": "b",
+        "Explicacao": "Isaías foi o profeta que teve visões dos céus, dos serafins, e recebeu a missão de proclamar mensagens de juízo e consolo, conforme registrado no Livro de Isaías."
+    },
+    "52": {
+        "Pergunta": "Qual dos apóstolos de Jesus foi martirizado ao ser crucificado de cabeça para baixo?",
+        "Alternativas": {
+            "a": "Pedro",
+            "b": "Tiago, filho de Zebedeu",
+            "c": "João",
+            "d": "André"
+        },
+        "Resposta": "a",
+        "Explicacao": "Pedro, apóstolo de Jesus, foi martirizado ao ser crucificado de cabeça para baixo, segundo a história."
+    },
+    "53": {
+        "Pergunta": "Qual rei do Antigo Testamento foi conhecido por sua sabedoria e por julgar uma disputa envolvendo duas mulheres e um bebê?",
+        "Alternativas": {
+            "a": "Salomão",
+            "b": "Davi",
+            "c": "Ezequias",
+            "d": "Josias"
+        },
+        "Resposta": "a",
+        "Explicacao": "Salomão, filho de Davi, foi conhecido por sua sabedoria. Uma de suas histórias famosas envolve julgar uma disputa entre duas mulheres que reivindicavam a maternidade de um bebê."
+    },
+    "54": {
+        "Pergunta": "Quem foi o profeta que realizou milagres envolvendo uma viúva, uma jarra de azeite e a ressurreição do filho dela?",
+        "Alternativas": {
+            "a": "Elias",
+            "b": "Eliseu",
+            "c": "Isaías",
+            "d": "Miquéias"
+        },
+        "Resposta": "b",
+        "Explicacao": "Eliseu, sucessor de Elias, realizou milagres, incluindo a multiplicação do azeite de uma viúva e a ressurreição do filho dela, conforme registrado em 2 Reis 4."
+    },
+    "55": {
+        "Pergunta": "Quem foi o escriba do Antigo Testamento que liderou a reconstrução dos muros de Jerusalém após o exílio?",
+        "Alternativas": {
+            "a": "Neemias",
+            "b": "Esdras",
+            "c": "Jeremias",
+            "d": "Ezequiel"
+        },
+        "Resposta": "a",
+        "Explicacao": "Neemias, um escriba do Antigo Testamento, liderou a reconstrução dos muros de Jerusalém após o exílio babilônico."
+    },
+    "56": {
+        "Pergunta": "Qual profeta do Antigo Testamento teve uma visão dos serafins clamando 'Santo, Santo, Santo' diante de Deus?",
+        "Alternativas": {
+            "a": "Isaías",
+            "b": "Jeremias",
+            "c": "Ezequiel",
+            "d": "Miquéias"
+        },
+        "Resposta": "a",
+        "Explicacao": "Isaías teve uma visão dos serafins clamando 'Santo, Santo, Santo' diante de Deus, registrada em Isaías 6."
+    },
+    "57": {
+        "Pergunta": "Quem foi o profeta que foi chamado para pregar à grande cidade de Nínive, e a cidade se arrependeu?",
+        "Alternativas": {
+            "a": "Amós",
+            "b": "Jonas",
+            "c": "Oséias",
+            "d": "Naum"
+        },
+        "Resposta": "b",
+        "Explicacao": "Jonas foi o profeta chamado para pregar à cidade de Nínive. Surpreendentemente, a cidade se arrependeu diante da mensagem de Jonas."
+    },
+    "58": {
+        "Pergunta": "Quem era o rei de Israel conhecido por sua habilidade com a harpa?",
+        "Alternativas": {
+            "a": "Saul",
+            "b": "Davi",
+            "c": "Salomão",
+            "d": "Josias"
+        },
+        "Resposta": "b",
+        "Explicacao": "Davi, antes de se tornar rei, era conhecido por sua habilidade com a harpa e por ter derrotado o gigante Golias com uma funda."
+    },
+    "59": {
+        "Pergunta": "Qual profeta teve visões apocalípticas, incluindo a famosa visão dos quatro seres viventes e dos vinte e quatro anciãos?",
+        "Alternativas": {
+            "a": "Daniel",
+            "b": "Ezequiel",
+            "c": "Isaías",
+            "d": "Zacarias"
+        },
+        "Resposta": "b",
+        "Explicacao": "Ezequiel teve visões apocalípticas, incluindo a famosa visão dos quatro seres viventes e dos vinte e quatro anciãos, registrada em Ezequiel 1."
+    },
+    "60": {
+        "Pergunta": "Qual é o significado do nome 'Emanuel', frequentemente associado a Jesus?",
+        "Alternativas": {
+            "a": "Deus é meu pastor",
+            "b": "Deus conosco",
+            "c": "Deus é amor",
+            "d": "Deus é luz"
+        },
+        "Resposta": "b",
+        "Explicacao": "O nome 'Emanuel' significa 'Deus conosco', destacando a presença divina na pessoa de Jesus Cristo."
+    },
+    "61": {
+        "Pergunta": "Quem era a esposa de Isaque na Bíblia?",
+        "Alternativas": {
+            "a": "Lea",
+            "b": "Raquel",
+            "c": "Sara",
+            "d": "Rebeca"
+        },
+        "Resposta": "d",
+        "Explicacao": "Rebeca era a esposa de Isaque, e sua história é relatada em Gênesis, especialmente em relação ao casamento e à descendência."
+    },
+    "62": {
+        "Pergunta": "Qual profeta foi chamado por Deus para comprar um cinto, enterrá-lo e, posteriormente, encontrá-lo danificado como sinal da decadência de Israel?",
+        "Alternativas": {
+            "a": "Isaías",
+            "b": "Jeremias",
+            "c": "Ezequiel",
+            "d": "Oséias"
+        },
+        "Resposta": "b",
+        "Explicacao": "Jeremias foi chamado por Deus para comprar um cinto, enterrá-lo e, posteriormente, encontrá-lo danificado como sinal da decadência iminente de Israel, conforme descrito em Jeremias 13:1-11."
+    },
+    "63": {
+        "Pergunta": "Qual é o livro do Novo Testamento que contém a descrição mais detalhada do julgamento final e do novo céu e nova terra?",
+        "Alternativas": {
+            "a": "Mateus",
+            "b": "Apocalipse",
+            "c": "1 Coríntios",
+            "d": "Hebreus"
+        },
+        "Resposta": "b",
+        "Explicacao": "O livro do Apocalipse contém a descrição mais detalhada do julgamento final, do novo céu e da nova terra, revelando as visões apocalípticas dadas a João na Ilha de Patmos."
+    },
+    "64": {
+        "Pergunta": "Quem foi o profeta que ungiu a Davi como rei de Israel?",
+        "Alternativas": {
+            "a": "Samuel",
+            "b": "Natan",
+            "c": "Gade",
+            "d": "Elias"
+        },
+        "Resposta": "a",
+        "Explicacao": "O profeta Samuel ungiu a Davi como rei de Israel, conforme narrado em 1 Samuel 16."
+    },
+    "65": {
+        "Pergunta": "Quem foi o rei que destruiu os altares de Baal e restaurou o culto ao Deus verdadeiro em Israel?",
+        "Alternativas": {
+            "a": "Josafá",
+            "b": "Ezequias",
+            "c": "Josias",
+            "d": "Acaz"
+        },
+        "Resposta": "c",
+        "Explicacao": "O rei Josias destruiu os altares de Baal e restaurou o culto ao Deus verdadeiro em Israel, conforme registrado em 2 Reis 22-23."
+    }
+}
