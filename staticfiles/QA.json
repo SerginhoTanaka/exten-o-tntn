@@ -713,5 +713,16 @@
         },
         "Resposta": "c",
         "Explicacao": "O rei Josias destruiu os altares de Baal e restaurou o culto ao Deus verdadeiro em Israel, conforme registrado em 2 Reis 22-23."
+    },
+    "66": {
+        "Pergunta": "Quem foi nomeado pela sua mãe como 'filho da dor', mas teve seu nome mudado pelo seu pai como 'filho da felicidade'?",
+        "Alternativas": {
+            "a": "Benjamin",
+            "b": "Jacó",
+            "c": "Esaú",
+            "d": "Ruben"
+        },
+        "Resposta": "a",
+        "Explicacao": "Benjamin foi nomeado por sua mãe Raquel como 'filho da dor' antes de morrer durante o parto. Seu pai Jacó, no entanto, o chamou de 'filho da felicidade' ao nomeá-lo."
     }
 }
