@@ -23,7 +23,7 @@ def index_game(request, user_id, question_id=None):
             user.score += 10
             user.save()
         else:
-            message = 'Errou! Estude mais, filisteu incircunciso'
+            message = 'Infelizmente a resposta está incorreta'
             user.score -= 5
             user.save()
 
