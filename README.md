@@ -1,6 +1,5 @@
 ---
 title: "They need to know him"
-draft: false
 language: pt-br
 author: Caio Matsumoto, Davi Carvalho, Felipe Campos, Felipe Toledo, Sergio Tanaka
 categories: Blog
