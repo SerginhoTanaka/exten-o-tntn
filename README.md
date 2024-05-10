@@ -9,6 +9,19 @@ linkblog: https://theyneedtoknowhim1.blogspot.com/
 linkvideo: https://www.youtube.com/watch?v=x8KiqWdMukQ
 linkgithub: https://github.com/SerginhoTanaka/extencao-tntn
 
+---
+
+__Advertisement :smile:__
+
+- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+  resize in browser.
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
+
+You will like those projects!
+
+---
+
 ## Introdução
 
 Somos estudantes da área da computação da UniFil e estamos desenvolvendo o Projeto de Extensão necessário para concluir a graduação. O objetivo do Projeto de Extensão é impactar positivamente a comunidade de alguma maneira a fim de auxiliar em alguma demanda corrente.  O Projeto de Extensão Universitário é um projeto que visa atender as demandas da sociedade com base nos conhecimentos adquiridos pelos alunos durante o período de estudos na instituição. Assim, constitui-se de uma ação conjunta entre a universidade, os estudantes e a comunidade visada.
